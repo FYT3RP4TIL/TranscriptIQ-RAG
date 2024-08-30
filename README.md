@@ -151,4 +151,11 @@ llm = OpenRouter(model="anthropic/claude-2")
 
 Available models may change over time, so check the OpenRouter documentation for the most up-to-date list of supported models.
 
-Remember to adjust your prompts and parameters based on the specific requirements and capabilities of each model.
+Remember to adjust your prompts and parameters based on the specific requirements and capabilities of each model
+
+## Video Example - Lex Fridman and Preplixity CEO [Podcast](https://www.youtube.com/watch?v=e-gwvmhyU7A)
+
+![](https://github.com/user-attachments/assets/03691841-d482-41ca-b7b7-a280327643c2)
+
+![](https://github.com/user-attachments/assets/4943ce3d-8f6f-4280-b29a-7b776423ae6d)
+
