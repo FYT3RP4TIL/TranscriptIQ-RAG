@@ -154,7 +154,7 @@ Available models may change over time, so check the OpenRouter documentation for
 
 Remember to adjust your prompts and parameters based on the specific requirements and capabilities of each model.
 
-## 🎥 Video Example - Lex Fridman and Preplixity CEO [Podcast](https://www.youtube.com/watch?v=e-gwvmhyU7A)
+## 🎥 Video Example - Lex Fridman and Preplexity CEO [Podcast](https://www.youtube.com/watch?v=e-gwvmhyU7A)
 
 ![](https://github.com/user-attachments/assets/03691841-d482-41ca-b7b7-a280327643c2)
 
