@@ -1,45 +1,45 @@
-# Transcript-IQ RAG (Retrieval Augmented Generation)
+# 🧠 Transcript-IQ RAG (Retrieval Augmented Generation)
 
-# RAG Project with OpenRouter, Pinecone, and OpenAI
+## 🚀 RAG Project with OpenRouter, Pinecone, and OpenAI
 
 This project implements a Retrieval-Augmented Generation (RAG) system using OpenRouter for model access, Pinecone for vector storage, and OpenAI for embeddings. The project is set up in Google Colab for easy access and execution.
 
-## What is RAG?
+### 🤔 What is RAG?
 
 RAG stands for **Retrieval-Augmented Generation**. It is a framework that combines the strengths of both information retrieval and text generation techniques, particularly in the context of natural language processing (NLP) and machine learning.
 
-## How Does RAG Work?
+### 🛠️ How Does RAG Work?
 
 1. **Retrieval Step**: RAG starts by retrieving relevant documents or information from a large dataset or knowledge base. This is typically done using a retriever model (e.g., dense passage retrieval or traditional search techniques) that identifies the most relevant pieces of information based on a given query.
 
 2. **Generation Step**: Once the relevant information is retrieved, a generative model (such as a transformer-based language model) takes this information as input and generates a coherent and contextually relevant response. The generation model uses the retrieved information to augment its ability to produce accurate and context-aware answers.
 
-## Why Use RAG?
+### 🌟 Why Use RAG?
 
 - **Improved Accuracy**: By combining retrieval with generation, RAG can produce more accurate and factually grounded responses compared to using a generative model alone.
 - **Scalability**: RAG systems can scale to large corpora, enabling them to use vast amounts of knowledge stored in databases, wikis, or other structured/unstructured data sources.
 - **Flexibility**: RAG can be used for a variety of tasks, including question answering, summarization, and more, making it a versatile tool in the NLP toolkit.
 
-## Applications of RAG
+### 🎯 Applications of RAG
 
 - **Open-Domain Question Answering**: RAG is commonly used to answer questions where the answers are not contained in a predefined dataset but need to be retrieved from a broader knowledge base.
 - **Customer Support Chatbots**: RAG models can help in generating responses to customer queries by retrieving relevant information from a company's internal documentation.
 - **Content Generation**: RAG can assist in generating content that requires specific facts or references, such as writing reports or articles with up-to-date information.
 
-## Table of Contents
+## 📑 Table of Contents
 1. Prerequisites
 2. Setting Up API Keys
 3. Pinecone Database Setup
 4. Using Different Models for RAG
 
-## Prerequisites
+## 📋 Prerequisites
 
 - Google account (for accessing Google Colab)
 - OpenRouter account
 - Pinecone account
 - OpenAI account
 
-## Setting Up API Keys
+## 🔑 Setting Up API Keys
 
 All these keys can also be setup in colab using key option and adding specified keys in the notebook.
 
@@ -78,7 +78,7 @@ os.environ["PINECONE_ENVIRONMENT"] = "your_pinecone_environment_here"
 os.environ["OPENAI_API_KEY"] = "your_openai_api_key_here"
 ```
 
-## Pinecone Database Setup
+## 💾 Pinecone Database Setup
 
 1. In your Pinecone console, create a new index:
 
@@ -103,7 +103,7 @@ index = pinecone.Index("your_index_name")
 index.upsert(vectors=[("id1", [1.0, 2.0, 3.0, ...], {"metadata": "value"})])
 ```
 
-## Using Different Models for RAG
+## 🤖 Using Different Models for RAG
 
 This project supports various models through OpenRouter. Here's how you can use different models:
 
